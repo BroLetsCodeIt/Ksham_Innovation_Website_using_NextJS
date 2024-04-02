@@ -15,7 +15,7 @@ const HeroPage = () => {
                   New
                 </span>
                 <span className="text-sm font-medium text-gray-700 dark:text-gray-300 flex gap-6">
-                  Introducing Tailus UI React !
+                  Introducing Able Glasses !
                   <div className="flex items-center -space-x-3 group-hover:-translate-x-1 transition-transform duration-300">
                     <span className="w-2.5 translate-y-[-0.3px] -translate-x-px opacity-0 h-[1.5px] rounded bg-gray-950 dark:bg-white origin-left scale-x-0 transition duration-300 group-hover:opacity-100 group-hover:scale-x-100"></span>
                     <svg
@@ -115,19 +115,21 @@ const HeroPage = () => {
                         fill="currentColor"
                       ></path>
                     </svg>
-                    <span className="text-nowrap">Start Building</span>
+                    <span className="text-nowrap">Get Early Access</span>
                   </a>
                 </div>
               </div>
             </div>
-            <div className="-mx-6 relative mt-8 sm:mt-12 max-w-xl sm:mx-auto">
-              <div className="absolute inset-0 -top-8 left-1/2 -z-20 h-56 w-full -translate-x-1/2 dark:opacity-10 [background-image:linear-gradient(to_bottom,transparent_98%,theme(colors.gray.200/75%)_98%),linear-gradient(to_right,transparent_94%,_theme(colors.gray.200/75%)_94%)] [background-size:16px_35px] [mask:radial-gradient(black,transparent_95%)]"></div>
+            
+            <div className="-mx-6 relative mt-8 sm:mt-12 sm:mx-auto ">
+              <h1 className="flex items-center justify-center sm:text-4xl text-2xl font-bold py-10 tracking-tighter">How Able Glasses Work 🤔</h1>
+              <div className="absolute inset-0 -top-8 left-1/2 -z-20 h-56 w-full -translate-x-1/2 dark:opacity-10 [background-image:linear-gradient(to_bottom,transparent_98%,theme(colors.gray.200/75%)_98%),linear-gradient(to_right,transparent_94%,_theme(colors.gray.200/75%)_94%)] [background-size:16px_35px] [mask:radial-gradient(black,transparent_95%)] "></div>
               <div className="absolute top-12 inset-x-0 w-2/3 h-1/3 -z-[1] rounded-full bg-primary-300 dark:bg-white/10 mx-auto blur-3xl"></div>
 
-              <div className="swiper proofSlides pb-6">
-                <div className="swiper-wrapper">
-                  <div className="px-6 pt-2 pb-12 swiper-slide">
-                    <div className="bg-white shadow-xl shadow-gray-950/5 p-[--card-padding] rounded-[--card-border-radius] border-[--ui-light-border-color] dark:border-[--ui-dark-border-color] dark:bg-[--card-dark-bg] relative border-[length:var(--border-width)] [--anchor:100] [--border-radius:calc(var(--radius)*1px)] [--border-width:calc(var(--border)*1px)] [--border:1] [--glow:60] [--hue:179] [--lightness:55%] dark:[--lightness:14%] [--opacity:1] [--radius:24] [--saturation:78%] dark:[--saturation:97%] [--speed:2]">
+              <div className="swiper proofSlides pb-6  w-full">
+                <div className="swiper-wrapper ">
+                  <div className="px-6 pt-2 pb-12 swiper-slide w-full ">
+                    <div className="bg-white shadow-xl shadow-gray-950/5 p-[--card-padding] rounded-[--card-border-radius] border-[--ui-light-border-color] dark:border-[--ui-dark-border-color] dark:bg-[--card-dark-bg] relative border-[length:var(--border-width)] [--anchor:100] [--border-radius:calc(var(--radius)*1px)] [--border-width:calc(var(--border)*1px)] [--border:1] [--glow:60] [--hue:179] [--lightness:55%] dark:[--lightness:14%] [--opacity:1] [--radius:24] [--saturation:78%] dark:[--saturation:97%] [--speed:2] w-full">
             
                         {/* video  */}
                         <video width="320" height="240" controls preload="none" autoPlay loop muted className="w-full">

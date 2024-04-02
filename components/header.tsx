@@ -11,7 +11,7 @@ const Header = () => {
                 <div className="flex flex-wrap items-center justify-between py-2 sm:py-4">
                     <div className="w-full items-center flex justify-between lg:w-auto">
                         <a href="/" aria-label="tailus logo">
-                           <Image src="/logo.png" alt="" className="w-30 h-10 rounded-full" width={20} height={20} />
+                           <Image src="/logo.png" alt="" className="w-30 h-10 rounded-full" width={100} height={60} />
                         </a>
                         <div className="flex lg:hidden">
                             <button aria-label="humburger" id="menu" className="relative border bordeer-gray-950/30 dark:border-white/20 size-9 rounded-full transition duration-300 active:scale-95">
