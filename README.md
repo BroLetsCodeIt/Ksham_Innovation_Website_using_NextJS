@@ -11,7 +11,7 @@
 ### How to Clone 
 
 ```sh
-git clone 
+git clone https://github.com/BroLetsCodeIt/Ksham_Innovation_Website_using_NextJS.git
 ```
 
 ```sh
