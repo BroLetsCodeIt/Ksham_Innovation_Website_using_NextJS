@@ -6,3 +6,18 @@
 ![image](https://github.com/BroLetsCodeIt/Ksham_Innovation_Website_using_NextJS/assets/113767803/d8dc4600-d77c-4a88-b51a-2b1703e28c8c)
 ![image](https://github.com/BroLetsCodeIt/Ksham_Innovation_Website_using_NextJS/assets/113767803/c8df96bc-98c5-4bcf-8876-2b5bce4f7baf)
 ![image](https://github.com/BroLetsCodeIt/Ksham_Innovation_Website_using_NextJS/assets/113767803/bba2f901-bb83-42b6-a6a3-c5887358290b)
+
+
+### How to Clone 
+
+```sh
+git clone 
+```
+
+```sh
+npm install
+```
+
+```sh
+npm run dev
+```
