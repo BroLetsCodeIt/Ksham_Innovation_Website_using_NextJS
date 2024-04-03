@@ -4,11 +4,11 @@ const HeroPage = () => {
   return (
     <>
       <section className="relative">
-        <div className="relative pt-24 lg:pt-28">
+        <div className="relative pt-[10rem] sm:pt-24 lg:pt-[10rem]">
           <div className="mx-auto px-6 max-w-7xl md:px-12">
             <div className="text-center sm:mx-auto sm:w-10/12 lg:mr-auto lg:mt-0 lg:w-4/5">
               <a
-                href="https://beta.tailus.io/demo"
+                href=""
                 className="border w-fit mx-auto flex justify-between items-center transition duration-200 rounded-[--annonce-border-radius] border-[--ui-light-border-color] hover:border-[--ui-light-border-hover-color] dark:border-[--ui-dark-border-color] dark:hover:border-[--ui-dark-border-hover-color] p-1 group gap-2"
               >
                 <span className="block text-sm px-2 py-0.5 rounded-[calc(var(--annonce-border-radius)-0.375rem)] text-white bg-primary-600">

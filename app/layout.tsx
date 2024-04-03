@@ -3,6 +3,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/themeprovider";
 import Footer from "@/components/Footer";
+import Header from "@/components/header";
+import Topheader from "@/components/topheader";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,6 +24,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <ThemeProvider defaultTheme="light" enableColorScheme disableTransitionOnChange attribute="class">
+         
+        <Header/>
         {children}
         <Footer/>
           </ThemeProvider>
