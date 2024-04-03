@@ -16,8 +16,8 @@ const Header = () => {
             <div className="px-6 m-auto max-w-6xl 2xl:px-0">
                 <div className="flex flex-wrap items-center justify-between py-2 sm:py-4">
                     <div className="w-full items-center flex justify-between lg:w-auto">
-                        <a href="/" aria-label="tailus logo">
-                           <Image src="/logo.png" alt="" className="w-30 h-10 rounded-full" width={100} height={60} />
+                        <a href="/" aria-label="kshamlogo">
+                           <Image src="/logo.png" alt="" className="w-30 h-10 rounded-full" width={100} height={60} priority={false}/>
                         </a>
                         <div className="flex lg:hidden items-center gap-3">
                             {/* <button aria-label="humburger" id="menu" className="relative border bordeer-gray-950/30 dark:border-white/20 size-9 rounded-full transition duration-300 active:scale-95">
